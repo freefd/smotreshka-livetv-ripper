@@ -1,0 +1,4 @@
+*.xml
+*.m3u
+.vscode
+__pycache__/
