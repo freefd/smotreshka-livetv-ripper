@@ -1,5 +1,7 @@
 # Smotreshka Live TV Ripper
 
+![Smotreshka Live TV Ripper Logo](images/smotreshka-livetv-ripper-logo.png)
+
 A tool to build the top-level M3U playlist and EPG XMLTV listing file using the [Smotreshka](https://smotreshka.tv/) as a source.
 
 ## Functionality
@@ -143,3 +145,16 @@ Generate only the M3U playlist to file /tmp/m3ufilename.m3u, with debug enabled 
 [2025-03-13 13:23:22,432] INFO main.py::__main__::<module>(): Please find generated M3U playlist
 	- /tmp/m3ufilename.m3u
 ```
+
+## Artifacts usage
+
+The generated M3U playlist and XMLTV listing can be used by a 3<sup>rd</sup> party software to replace the existing Smotreshka frontend.
+
+For example, the [Jellyfin](https://jellyfin.org/) can use [M3U tuner](https://jellyfin.org/docs/general/server/live-tv/setup-guide/#m3u-tuner-specific-options) and [EPG](https://jellyfin.org/docs/general/server/live-tv/setup-guide/#adding-guide-data) in XMLTV format. After applying the settings to Jellyfin, we may find that the data is populated:
+
+![Jellyfin Live TV Programs](images/jellyfin_livetv_programs.png)
+
+![Jellyfin Live TV Guide](images/jellyfin_livetv_guide.png)
+
+![Jellyfin Live TV Channels](images/jellyfin_livetv_channels.png)
+
