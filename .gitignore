@@ -1,4 +1,5 @@
 *.xml
 *.m3u
+*.xcf
 .vscode
 __pycache__/

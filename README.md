@@ -8,7 +8,7 @@ A tool to build the top-level M3U playlist and EPG XMLTV listing file using the 
 * Generate M3U playlist for Live TV streams
 * Generate EPG listing in XMLTV format
 
-## Requirements:
+## Requirements
 * Python 3.10+
 * Smotreshka account with purchased channels bundle
 
